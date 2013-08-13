@@ -1,0 +1,22 @@
+<plugin name='parse' version='0.1.1' grailsVersion='2.2 &gt; *'>
+  <author>Srinivas Jaini, Vijay Yalla</author>
+  <authorEmail>srinivasjaini@gmail.com</authorEmail>
+  <title>Parse Plugin</title>
+  <description>This plugin uses parse.com API to provide code for mobile platforms including push notifications and other features. 
+Currently supports push notifications to Android. Plan to support other API in next releases.
+</description>
+  <documentation>http://grails.org/plugin/parse</documentation>
+  <type>ParseGrailsPlugin</type>
+  <resources>
+    <resource>parse.TestController</resource>
+    <resource>parse.MobileDevice</resource>
+    <resource>parse.ParseService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
