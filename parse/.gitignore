@@ -1,0 +1,7 @@
+.settings
+*.zip
+*.log
+plugin.xml
+target
+target-eclipse
+web-app
