@@ -13,11 +13,11 @@ Currently supports push notifications to Android. Plan to support other API in n
 	def documentation = "http://grails.org/plugin/parse"
 
 	def license = "APACHE"
-//	def organization = [ name: "LISNx", url: "http://www.lisnx.com/" ]
+//	def organization = [name: "LISNx", url: "http://www.lisnx.com/"]
 	def developers = [
 		[name: "Srinivas Jaini", email: "srinivasjaini@gmail.com"],
 		[name: "Vijay Yalla"]
 	]
-	def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
-	def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+	def issueManagement = [system: "GITHUB", url: "https://github.com/srinivasjaini/parse/issues"]
+	def scm = [url: "https://github.com/srinivasjaini/parse"]
 }
